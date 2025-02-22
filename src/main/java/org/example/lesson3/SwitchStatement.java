@@ -12,7 +12,8 @@ public class SwitchStatement {
 
         switch (x) {
             case 1:
-                System.out.println("One");
+                System.out.println("Bazar ertesi");
+                System.out.println("Qacmaq");
                 break;
             case 2:
                 System.out.println("Two");

@@ -2,7 +2,7 @@ package org.example.lesson3;
 
 public class AssignmentOperators {
 //    +=
-//    -+
+//    -=
     public static void main(String[] args) {
         int num = 10;
         num += 5; // num = num + 5

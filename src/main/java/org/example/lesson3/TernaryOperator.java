@@ -7,9 +7,9 @@ public class TernaryOperator {
     public static void main(String[] args) {
         int num = 10;
         String result = (num % 2 == 0) ? "Dogrudur" : "Sehvdir";
-        System.out.println(result);
+        System.out.println(result); // Dogrudur
 
         String result2 = (num % 2 != 0) ? "True" : "False";
-        System.out.println(result2);
+        System.out.println(result2); // False
     }
 }

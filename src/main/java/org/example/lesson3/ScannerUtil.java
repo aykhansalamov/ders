@@ -10,9 +10,9 @@ public class ScannerUtil {
 
         System.out.println("Yashinizi bilmek uchun tevelludunuzu daxil edin: ");
 
-        int number = scanner.nextInt();
+        int number = scanner.nextInt(); // 2000
 
-        int age = 2025 - number;
+        int age = 2025 - number; //  2025-2000 = 25
 
         System.out.println("Sizin yashiniz: " + age);
 

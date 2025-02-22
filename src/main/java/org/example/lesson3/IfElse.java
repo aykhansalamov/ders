@@ -6,16 +6,16 @@ public class IfElse {
 
         int x = 10, y = 5;
 
-        if (x < y) {
-            System.out.println("x > y");
-        }
-//        if (x > y) {
+//        if (x > y) {  //true
 //            System.out.println("x > y");
-//        } else if (x % y == 0) {
-//            System.out.println("X Y-e qaliqsiz bolunur");
-//        } else {
-//            System.out.println("Hech bir shert dugru deyil");
 //        }
+        if (x < y) { //false
+            System.out.println("x > y");
+        } else if (x % y == 0) { //true
+            System.out.println("X Y-e qaliqsiz bolunur");
+        } else {
+            System.out.println("Hech bir shert dugru deyil");
+        }
 
 //        if (x > y) {
 //            System.out.println("x > y");
