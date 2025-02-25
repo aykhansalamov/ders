@@ -1,0 +1,19 @@
+OOP prinsipleri:
+
+-Encapsulation - Melumatlarin gizledilmesi
+-Inheritance - Movcud xususiyyetlerin yeniden istifadesi
+-Polymorphism - Bir metodun muxtelif formalarda olmasi
+-Abstraction - Gereksiz detallarin gizledilmesi
+
+Obyekt:
+Attributes (state) -xususiyyeti - reng, brend, forma
+Methods (behaviour) -davranish - getmek, gelmek, bashlamaq, bitirmek
+
+Class:
+Obyekti yaratmaq uchun istifade olunan shablon.
+Class daxilinde obyektin xususiyyetleri ve davranishlari teyin olunur.
+
+Fields (Instance variables) and Methods:
+-fields - xususiyyetleri, melumatlari saxlayir
+-methods - davranishlari(obyektin icra etdiyi emeliyyatlar) mueyyenleshdirir
+
