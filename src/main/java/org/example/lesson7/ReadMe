@@ -1,0 +1,12 @@
+Metod ve fieldlerimiz 2 cur ola bilir:
+
+-static
+
+Class-a aiddir.
+Birbasa "class-in adi"."metod ve ya field adi" yazib cagira bilirik
+Obekt yaradib cagira bilerik
+
+-non static
+
+Obyekte aiddir
+Metod ve ya field cagrilmasi uchun mutleq obyekt yaradilmalidir
