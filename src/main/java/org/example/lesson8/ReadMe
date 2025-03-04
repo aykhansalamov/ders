@@ -1,0 +1,17 @@
+Konstruktorlar
+
+-Obyektin deyerlerini teyin etmeye istifade olunur
+-Qaytarilan deyer tipi olmur (void de yazilmir)
+-Obyekt yaradilanda avtomatik sistem terefinden cagrilir
+
+Overloading
+
+-metod adi eyni qalir
+-response type eyni qalir
+-request sayi ve tipi deyishile biler
+
+Annotation
+
+@AllArgsConstructor       - All arguments constructor  - Butun fieldler olur
+@NoArgsConstructor        - No arguments constructor   - Bosh olur
+@RequiredArgsConstructor  - Required Arguments Constructor   - Lazim olani goturmek
