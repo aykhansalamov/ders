@@ -1,0 +1,36 @@
+Inheritance - irsilik
+
+Super class
+Child class
+
+Inheritance novleri:
+
+Single inheritance:
+-bir sinif bahsqa sinfi miras alir
+
+Multilevel inheritance:
+-bir sinif bahsqa sinfi miras alir, o da bashqa bir sinfi miras alir
+
+Hierarchical inheritance:
+-bir ana sinif bir neche sinif terefinden miras alinir
+
+Multiple inheritance:
+-Java desteklemir, interface-lerde mumkundur
+
+Method Overriding
+-Metodun adi, request-i sabit qalir, response deyishir
+
+interface-de:
+
+ TransferInitiateResponse initiateTransfer(TransferInitiateRequest request, TransferProviderEnum provider);
+
+
+ class-da:
+
+ @Override
+ TransferInitiateResponse initiateTransfer(TransferInitiateRequest request, TransferProviderEnum provider) {
+
+ System.out.println("Hello");
+
+ }
+
