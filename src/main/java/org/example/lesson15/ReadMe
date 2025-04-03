@@ -1,0 +1,24 @@
+LinkedList
+
+-Qatar vaqonlari kimi dushune bilerik
+-Yeni elementi istediyimiz index-e elave ede bilerik
+
+
+Set
+= HashSet
+= LinkedHashSet
+= TreeSet
+
+HashSet
+-Index olmur (index-le cagirmaq)
+-Elementler unique olur.(Tekrarolunmaz)
+-Siralamasi olmur.
+
+LinkedHashSet
+-Siralama olur
+-Elementler unique olur
+
+TreeSet
+-Unique element
+-Ascending siralama ile saxlayir
+-Her defe yeni element elave etdikde siralama yenilenir
