@@ -15,7 +15,7 @@ HashSet
 -Siralamasi olmur.
 
 LinkedHashSet
--Siralama olur
+-Siralama olur (Arraylistdeki kimi)
 -Elementler unique olur
 
 TreeSet
