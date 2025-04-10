@@ -1,0 +1,19 @@
+Bloklar
+
+{
+private String name = "Orxan";
+}
+-------------------------------------------
+-static blocklar
+-instance bloklar (statik olmayan)
+-------------------------------------------
+Ishe dushme ardicilligi
+
+static block
+main metod ishe dushdu
+instance block
+constructor
+
+
+Obyektler
+
