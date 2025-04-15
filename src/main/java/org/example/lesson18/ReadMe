@@ -2,4 +2,26 @@ Exception Handling Basics(Istisnalar-xetalar) - Istisnalari nezere almaq
 
 1. try-catch bloku
 
+Bunlar kompilyasiya zamanı yoxlanılır və məcburi try-catch və ya throws tələb edir.
 
+IOException	- Giriş/çıxış zamanı problem (fayl oxuma/yazma)
+FileNotFoundException -	Fayl tapılmadıqda baş verir
+SQLException - Verilənlər bazası əməliyyatlarında xəta
+ParseException - Tarix və ya mətn analizində problem
+ClassNotFoundException - Verilən sinif yüklənə bilmədikdə
+
+
+Bunlar kompilyasiya zamanı yoxlanılmır, amma run-time zamanı çıxır. Əsasən RuntimeException sinifindən törəyir.
+
+NullPointerException - Null olan obyektə müraciət
+ArrayIndexOutOfBoundsException - Array-ın olmayan indexinə müraciət
+ArithmeticException - Riyazi səhv (məsələn, ədədi 0-a bölmək)
+NumberFormatException - Yanlış formatlı string-i rəqəmə çevirməyə cəhd
+IllegalArgumentException - Metoda düzgün olmayan argument göndərmək
+ClassCastException - Yanlış növ çevrilməsi (casting)
+
+
+Bunlar ciddi sistem səhvləridir və adətən try-catch ilə tutmaq tövsiyə edilmir.
+
+OutOfMemoryError - Yaddaş dolduqda
+StackOverflowError - Sonsuz rekursiya səbəbi ilə stack dolur
