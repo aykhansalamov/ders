@@ -25,3 +25,5 @@ Bunlar ciddi sistem səhvləridir və adətən try-catch ilə tutmaq tövsiyə e
 
 OutOfMemoryError - Yaddaş dolduqda
 StackOverflowError - Sonsuz rekursiya səbəbi ilə stack dolur
+
+IOException - Input, output xetalari tutur
