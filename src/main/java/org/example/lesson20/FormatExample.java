@@ -1,6 +1,5 @@
 package org.example.lesson20;
 
-import java.sql.SQLOutput;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
