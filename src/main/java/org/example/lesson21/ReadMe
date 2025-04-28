@@ -1,0 +1,12 @@
+Array ve LinkedList
+
+
+Array
+
+-Elementleri sirali ve indeksle saxlayir (0, 1, 2, 3 ...) saxlayir
+-Olcusu sabit olur (yaradanda neche element olacagi bellidir)
+
+
+LinkedList
+
+-Elementleri node (duyun) kimi saxlayir, her bir node bir deyer ve novbeti node-un adresini saxlayir.

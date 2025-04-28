@@ -6,15 +6,20 @@ import org.example.lesson2.PrimitiveDataTypes;
 public class Main {
     public static void main(String[] args) {
 
-        Ders1 d1 = new Ders1();
-        d1.ders();
+        int [] eded = new int[3];
 
-        Ders1 baku = new Ders1();
-        baku.ders();
+        eded [0] = 5;
+        eded [1] = 9;
+        eded [2] = 8;
 
-        PrimitiveDataTypes p1 = new PrimitiveDataTypes();
+        int number = 0;
+        int multiplier = 1;
 
-        p1.primitives();
-        p1.nonPrimitives();
+        for(int indexOfArray = eded.length - 1; indexOfArray >= 0; indexOfArray--) {
+
+           number +=  eded[indexOfArray] * multiplier;
+           multiplier *= 10;
+        }
+        System.out.println(number);
     }
 }
