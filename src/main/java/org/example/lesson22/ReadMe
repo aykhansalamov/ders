@@ -1,0 +1,18 @@
+Stack (yigin) & Queue (novbe)
+
+LIFO - Last In First Out
+
+FIFO - First In First Out
+
+== Stack ==
+
+peek() - en sonuncu elementi cagirir
+pop() - en sonuncunu silir
+push() - elave edir
+
+
+== Queue ==
+
+peek() - en birinci elementi cagirir
+poll() - en birincini silir
+add() - elave edir
