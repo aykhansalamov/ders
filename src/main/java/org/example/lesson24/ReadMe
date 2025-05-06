@@ -1,0 +1,26 @@
+- Kod yazmaq uchun IDE-ler
+Netbeans, Eclipse, Intellij IDEA
+
+Intellij IDEA
+Yeni proyekt -> New project
+Proyekt adi kichik herfle yazilir, boshluq buraxilmir
+Language - Java
+Type - maven, gradle (https://mvnrepository.com/)
+JDK - Java Development Kit
+Java version - 22
+Packaging - .jar
+
+
+
+Version Control
+
+Git - Versiyalarin idare edilmesi sistemidir. Kodun deyishiklik tarixi ve melumatlarini saxlayir, komanda ishlemek uchun rahatliq yaradir.
+GitLab, GitHub - Git uchun cloud servis.
+
+Git - esas anlayishlar
+
+1. Repository (repo) - kodun saxlandigi yer, layihe.
+2. Commit - bir deyishikliyi qeydiyyata almaq.
+3. Branch - layinenin paralel versiyasi.
+4. Merge - branch-lari birleshdirmek
+5. Push/Pull - kodu GitLab ve ya GitHub-la sinxronizasiyasi
